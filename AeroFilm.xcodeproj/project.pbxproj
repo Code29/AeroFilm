@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C400AC61EFED33500D1C574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C400AC51EFED33500D1C574 /* AppDelegate.swift */; };
+		4C400AC81EFED33500D1C574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C400AC71EFED33500D1C574 /* ViewController.swift */; };
+		4C400ACB1EFED33500D1C574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C400AC91EFED33500D1C574 /* Main.storyboard */; };
+		4C400ACE1EFED33500D1C574 /* AeroFilm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C400ACC1EFED33500D1C574 /* AeroFilm.xcdatamodeld */; };
+		4C400AD01EFED33500D1C574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C400ACF1EFED33500D1C574 /* Assets.xcassets */; };
+		4C400AD31EFED33500D1C574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C400AD11EFED33500D1C574 /* LaunchScreen.storyboard */; };
+		4C400ADE1EFED33600D1C574 /* AeroFilmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C400ADD1EFED33600D1C574 /* AeroFilmTests.swift */; };
+		4C400AE91EFED33600D1C574 /* AeroFilmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C400AE81EFED33600D1C574 /* AeroFilmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C400ADA1EFED33600D1C574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C400ABA1EFED33500D1C574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C400AC11EFED33500D1C574;
+			remoteInfo = AeroFilm;
+		};
+		4C400AE51EFED33600D1C574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C400ABA1EFED33500D1C574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C400AC11EFED33500D1C574;
+			remoteInfo = AeroFilm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C400AC21EFED33500D1C574 /* AeroFilm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AeroFilm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C400AC51EFED33500D1C574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C400AC71EFED33500D1C574 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C400ACA1EFED33500D1C574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C400ACD1EFED33500D1C574 /* AeroFilm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AeroFilm.xcdatamodel; sourceTree = "<group>"; };
+		4C400ACF1EFED33500D1C574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C400AD21EFED33500D1C574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C400AD41EFED33500D1C574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C400AD91EFED33600D1C574 /* AeroFilmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeroFilmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C400ADD1EFED33600D1C574 /* AeroFilmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroFilmTests.swift; sourceTree = "<group>"; };
+		4C400ADF1EFED33600D1C574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C400AE41EFED33600D1C574 /* AeroFilmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeroFilmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C400AE81EFED33600D1C574 /* AeroFilmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroFilmUITests.swift; sourceTree = "<group>"; };
+		4C400AEA1EFED33600D1C574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C400ABF1EFED33500D1C574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C400AD61EFED33600D1C574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C400AE11EFED33600D1C574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C400AB91EFED33500D1C574 = {
+			isa = PBXGroup;
+			children = (
+				4C400AC41EFED33500D1C574 /* AeroFilm */,
+				4C400ADC1EFED33600D1C574 /* AeroFilmTests */,
+				4C400AE71EFED33600D1C574 /* AeroFilmUITests */,
+				4C400AC31EFED33500D1C574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C400AC31EFED33500D1C574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C400AC21EFED33500D1C574 /* AeroFilm.app */,
+				4C400AD91EFED33600D1C574 /* AeroFilmTests.xctest */,
+				4C400AE41EFED33600D1C574 /* AeroFilmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C400AC41EFED33500D1C574 /* AeroFilm */ = {
+			isa = PBXGroup;
+			children = (
+				4C400AC51EFED33500D1C574 /* AppDelegate.swift */,
+				4C400AC71EFED33500D1C574 /* ViewController.swift */,
+				4C400AC91EFED33500D1C574 /* Main.storyboard */,
+				4C400ACF1EFED33500D1C574 /* Assets.xcassets */,
+				4C400AD11EFED33500D1C574 /* LaunchScreen.storyboard */,
+				4C400AD41EFED33500D1C574 /* Info.plist */,
+				4C400ACC1EFED33500D1C574 /* AeroFilm.xcdatamodeld */,
+			);
+			path = AeroFilm;
+			sourceTree = "<group>";
+		};
+		4C400ADC1EFED33600D1C574 /* AeroFilmTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C400ADD1EFED33600D1C574 /* AeroFilmTests.swift */,
+				4C400ADF1EFED33600D1C574 /* Info.plist */,
+			);
+			path = AeroFilmTests;
+			sourceTree = "<group>";
+		};
+		4C400AE71EFED33600D1C574 /* AeroFilmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C400AE81EFED33600D1C574 /* AeroFilmUITests.swift */,
+				4C400AEA1EFED33600D1C574 /* Info.plist */,
+			);
+			path = AeroFilmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C400AC11EFED33500D1C574 /* AeroFilm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C400AED1EFED33600D1C574 /* Build configuration list for PBXNativeTarget "AeroFilm" */;
+			buildPhases = (
+				4C400ABE1EFED33500D1C574 /* Sources */,
+				4C400ABF1EFED33500D1C574 /* Frameworks */,
+				4C400AC01EFED33500D1C574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AeroFilm;
+			productName = AeroFilm;
+			productReference = 4C400AC21EFED33500D1C574 /* AeroFilm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C400AD81EFED33600D1C574 /* AeroFilmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C400AF01EFED33600D1C574 /* Build configuration list for PBXNativeTarget "AeroFilmTests" */;
+			buildPhases = (
+				4C400AD51EFED33600D1C574 /* Sources */,
+				4C400AD61EFED33600D1C574 /* Frameworks */,
+				4C400AD71EFED33600D1C574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C400ADB1EFED33600D1C574 /* PBXTargetDependency */,
+			);
+			name = AeroFilmTests;
+			productName = AeroFilmTests;
+			productReference = 4C400AD91EFED33600D1C574 /* AeroFilmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C400AE31EFED33600D1C574 /* AeroFilmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C400AF31EFED33600D1C574 /* Build configuration list for PBXNativeTarget "AeroFilmUITests" */;
+			buildPhases = (
+				4C400AE01EFED33600D1C574 /* Sources */,
+				4C400AE11EFED33600D1C574 /* Frameworks */,
+				4C400AE21EFED33600D1C574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C400AE61EFED33600D1C574 /* PBXTargetDependency */,
+			);
+			name = AeroFilmUITests;
+			productName = AeroFilmUITests;
+			productReference = 4C400AE41EFED33600D1C574 /* AeroFilmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C400ABA1EFED33500D1C574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sergio Montes";
+				TargetAttributes = {
+					4C400AC11EFED33500D1C574 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ACF77GWJE4;
+						ProvisioningStyle = Automatic;
+					};
+					4C400AD81EFED33600D1C574 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ACF77GWJE4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C400AC11EFED33500D1C574;
+					};
+					4C400AE31EFED33600D1C574 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ACF77GWJE4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C400AC11EFED33500D1C574;
+					};
+				};
+			};
+			buildConfigurationList = 4C400ABD1EFED33500D1C574 /* Build configuration list for PBXProject "AeroFilm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C400AB91EFED33500D1C574;
+			productRefGroup = 4C400AC31EFED33500D1C574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C400AC11EFED33500D1C574 /* AeroFilm */,
+				4C400AD81EFED33600D1C574 /* AeroFilmTests */,
+				4C400AE31EFED33600D1C574 /* AeroFilmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C400AC01EFED33500D1C574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C400AD31EFED33500D1C574 /* LaunchScreen.storyboard in Resources */,
+				4C400AD01EFED33500D1C574 /* Assets.xcassets in Resources */,
+				4C400ACB1EFED33500D1C574 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C400AD71EFED33600D1C574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C400AE21EFED33600D1C574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C400ABE1EFED33500D1C574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C400AC81EFED33500D1C574 /* ViewController.swift in Sources */,
+				4C400ACE1EFED33500D1C574 /* AeroFilm.xcdatamodeld in Sources */,
+				4C400AC61EFED33500D1C574 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C400AD51EFED33600D1C574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C400ADE1EFED33600D1C574 /* AeroFilmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C400AE01EFED33600D1C574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C400AE91EFED33600D1C574 /* AeroFilmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C400ADB1EFED33600D1C574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C400AC11EFED33500D1C574 /* AeroFilm */;
+			targetProxy = 4C400ADA1EFED33600D1C574 /* PBXContainerItemProxy */;
+		};
+		4C400AE61EFED33600D1C574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C400AC11EFED33500D1C574 /* AeroFilm */;
+			targetProxy = 4C400AE51EFED33600D1C574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C400AC91EFED33500D1C574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C400ACA1EFED33500D1C574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C400AD11EFED33500D1C574 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C400AD21EFED33500D1C574 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C400AEB1EFED33600D1C574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C400AEC1EFED33600D1C574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C400AEE1EFED33600D1C574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ACF77GWJE4;
+				INFOPLIST_FILE = AeroFilm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioMontes.AeroFilm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C400AEF1EFED33600D1C574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ACF77GWJE4;
+				INFOPLIST_FILE = AeroFilm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioMontes.AeroFilm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C400AF11EFED33600D1C574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ACF77GWJE4;
+				INFOPLIST_FILE = AeroFilmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioMontes.AeroFilmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AeroFilm.app/AeroFilm";
+			};
+			name = Debug;
+		};
+		4C400AF21EFED33600D1C574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ACF77GWJE4;
+				INFOPLIST_FILE = AeroFilmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioMontes.AeroFilmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AeroFilm.app/AeroFilm";
+			};
+			name = Release;
+		};
+		4C400AF41EFED33600D1C574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ACF77GWJE4;
+				INFOPLIST_FILE = AeroFilmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioMontes.AeroFilmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AeroFilm;
+			};
+			name = Debug;
+		};
+		4C400AF51EFED33600D1C574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ACF77GWJE4;
+				INFOPLIST_FILE = AeroFilmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergioMontes.AeroFilmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AeroFilm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C400ABD1EFED33500D1C574 /* Build configuration list for PBXProject "AeroFilm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C400AEB1EFED33600D1C574 /* Debug */,
+				4C400AEC1EFED33600D1C574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C400AED1EFED33600D1C574 /* Build configuration list for PBXNativeTarget "AeroFilm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C400AEE1EFED33600D1C574 /* Debug */,
+				4C400AEF1EFED33600D1C574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C400AF01EFED33600D1C574 /* Build configuration list for PBXNativeTarget "AeroFilmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C400AF11EFED33600D1C574 /* Debug */,
+				4C400AF21EFED33600D1C574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C400AF31EFED33600D1C574 /* Build configuration list for PBXNativeTarget "AeroFilmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C400AF41EFED33600D1C574 /* Debug */,
+				4C400AF51EFED33600D1C574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C400ACC1EFED33500D1C574 /* AeroFilm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C400ACD1EFED33500D1C574 /* AeroFilm.xcdatamodel */,
+			);
+			currentVersion = 4C400ACD1EFED33500D1C574 /* AeroFilm.xcdatamodel */;
+			path = AeroFilm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C400ABA1EFED33500D1C574 /* Project object */;
+}
